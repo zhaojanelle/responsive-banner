@@ -15,7 +15,16 @@ html {
 
   .banner-text {
     height: 300px;
+  }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-text {
+    bottom: 0;
+    background-color: transparent;
+    background: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
 }
