@@ -4,4 +4,12 @@ html {
 
 .banner {
   background-image: url("../images/earth-horizon.jpg");
+  overflow: hidden;
+  max-height: 460px;
+}
+
+.banner-text {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
