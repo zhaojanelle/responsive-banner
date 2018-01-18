@@ -1,15 +1,14 @@
 html {
   font-family: Georgia, serif;
+  color: #fff;
 }
 
 .banner {
-  background-image: url("../images/earth-horizon.jpg");
-  overflow: hidden;
-  max-height: 460px;
 }
 
 .banner-text {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  background-color: #495562;
 }
