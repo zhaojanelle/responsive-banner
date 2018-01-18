@@ -3,19 +3,26 @@ html {
   color: #fff;
 }
 
-.banner {
-}
-
 .banner-text {
-  bottom: 0;
+  width: 100%;
   left: 50%;
   transform: translateX(-50%);
   background-color: #495562;
+  height: 250px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-text {
+    height: 300px;
+
+  }
+
 }
 
 .btn-ghost {
   color: #fff;
-  border: 2px solid #97a49b;
+  border: 3px solid #97a49b;
 }
 
 .btn-ghost:hover {
