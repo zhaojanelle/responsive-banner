@@ -3,8 +3,9 @@ html {
   color: #fff;
 }
 
-.img-flex {
+.banner-image {
   max-height: 500px;
+  background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
 }
 
 .banner-text {
@@ -22,8 +23,8 @@ html {
 
 .btn-ghost:hover {
   color: #000;
-  border-color: #fff;
-  background-color: #fff;
+  border-color: #efefef;
+  background-color: #efefef;
 }
 
 @media only screen and (min-width: 38em) {
@@ -39,7 +40,6 @@ html {
   .banner-text {
     bottom: 0;
     background-color: transparent;
-    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 
   .btn-ghost {
