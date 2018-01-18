@@ -8,7 +8,6 @@ html {
   left: 50%;
   transform: translateX(-50%);
   background-color: #495562;
-  height: 250px;
 }
 
 .btn-ghost {
@@ -43,7 +42,11 @@ html {
   }
 
   .banner-image {
-    max-height: 500px;
     background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+  }
+
+  .banner {
+    max-height: 500px;
+    overflow: hidden;
   }
 }
