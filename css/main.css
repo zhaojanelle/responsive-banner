@@ -5,8 +5,6 @@ html {
 
 .banner-text {
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
   background-color: #495562;
 }
 
@@ -21,7 +19,15 @@ html {
   background-color: #efefef;
 }
 
+.banner {
+  overflow: visible;
+}
+
 @media only screen and (min-width: 38em) {
+
+  .btn-ghost {
+    float: right;
+  }
 
 }
 
@@ -30,6 +36,8 @@ html {
   .banner-text {
     bottom: 0;
     background-color: transparent;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
+    position: absolute;
   }
 
   .btn-ghost {
@@ -37,12 +45,9 @@ html {
     float: right;
   }
 
-  .banner-image {
-    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
-  }
-
   .banner {
     max-height: 500px;
     overflow: hidden;
+    position: relative;
   }
 }
