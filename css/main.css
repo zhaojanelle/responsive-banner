@@ -3,11 +3,6 @@ html {
   color: #fff;
 }
 
-.banner-image {
-  max-height: 500px;
-  background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
-}
-
 .banner-text {
   width: 100%;
   left: 50%;
@@ -45,5 +40,10 @@ html {
   .btn-ghost {
     border-color: #fff;
     float: right;
+  }
+
+  .banner-image {
+    max-height: 500px;
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .9), rgba(73, 85, 98, 0));
   }
 }
